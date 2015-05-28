@@ -15,15 +15,14 @@ Clone the repository:
 
 Build the package using `dpkg-deb`:
 
-    cd hadoop-client-deb-package-1
-    dpkg-deb --build hadoop-client-deb-package-1
+    dpkg-deb --build hadoop-client_2.2.0-1
 
 This will create a `hadoop-client-deb-package.deb` file in the current directory.
 
 Installing the package
 ----------------------
 
-    dpkg -i hadoop-client-deb-package.deb
+    dpkg -i hadoop-client_2.2.0-1.deb
     apt-get install -f
 
 Testing Hadoop client
